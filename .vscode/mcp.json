@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "code-analyzer": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["dist/server.js"],
+      "env": {
+        "ROOT_DIR": "${workspaceFolder}"
+      }
+    }
+  }
+}
