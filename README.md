@@ -30,4 +30,4 @@ Este projeto é um servidor MCP (Model Context Protocol) para análise de codeba
    npm start
    ```
 
-> **Nota:** Este é um projeto de estudo, criado para fins de aprendizado e experimentação.
+> **Nota:** Este é um projeto de estudo, criado para fins de aprendizado e experimentação. FEITO COM APOIO DE IA E TESTANDO WORKFLOW SPEC DRIVEN DEVELOPMENT
