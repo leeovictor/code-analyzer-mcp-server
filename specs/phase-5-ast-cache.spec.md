@@ -1,6 +1,6 @@
 # Phase 5 — Cache AST (ts-morph)
 
-> **Status:** 🔴 Não iniciado | **Prioridade:** P1 — Pré-requisito direto para `find_function`
+> **Status:** ✅ Concluído | **Prioridade:** P1 — Pré-requisito direto para `find_function`
 > **Pré-requisito:** Phase 1 completa
 
 ## Objetivo

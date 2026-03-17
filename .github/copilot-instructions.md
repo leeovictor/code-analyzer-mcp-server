@@ -66,7 +66,7 @@ specs/               ← especificações detalhadas por fase de implementação
 | Spec | Prioridade | Status |
 |---|---|---|
 | `specs/phase-1-scaffolding.spec.md` | P0 | ✅ Concluído |
-| `specs/phase-5-ast-cache.spec.md`   | P1 | 🔴 Próximo |
+| `specs/phase-5-ast-cache.spec.md`   | P1 | ✅ Concluído |
 | `specs/phase-6-find-function.spec.md` | P0 ⭐ | 🔴 Próximo |
 | `specs/phase-2-list-files.spec.md` | P2 | 🔴 Desprioritizado |
 | `specs/phase-3-get-file-content.spec.md` | P2 | 🔴 Desprioritizado |
