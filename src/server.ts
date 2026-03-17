@@ -1,16 +1,18 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { registerFindFunction } from './tools/findFunction.js';
 
 const server = new McpServer({
   name: 'code-analyzer',
   version: '1.0.0',
 });
 
-// Tools serão registradas nas próximas fases:
+registerFindFunction(server);
+
+// Tools a registrar nas próximas fases:
 // import { registerListFiles } from './tools/listFiles.js';
 // import { registerGetFileContent } from './tools/getFileContent.js';
 // import { registerSearchCode } from './tools/searchCode.js';
-// import { registerFindFunction } from './tools/findFunction.js';
 // import { registerFindReferences } from './tools/findReferences.js';
 // import { registerDependencyGraph } from './tools/dependencyGraph.js';
 // import { registerExplainFileStructure } from './tools/explainFileStructure.js';
